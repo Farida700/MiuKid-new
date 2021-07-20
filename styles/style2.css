@@ -441,7 +441,7 @@ form {
     background-color: #fff;
     padding: 5px 10px;
     border-radius: 20px;
-    margin-right: 40px;
+    margin-right: 40px;   
 }
 
 input {
@@ -451,6 +451,12 @@ input {
     outline: none;
 }
 
+form input, form button {
+    border: 1px solid grey;
+    cursor: text;
+    border-radius: 10px;
+    height: 30px;
+}
 /* Решение взято с интернета. 
 Убирает на время цвет фона, внутри "input", автозаполнения */
 input:-webkit-autofill,
